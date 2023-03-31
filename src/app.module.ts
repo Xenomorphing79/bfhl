@@ -12,6 +12,6 @@ export class AppModule {
   constructor() {
     const app = express();
     app.use(bodyParser.json());
-    app.listen(6969);
+    app.listen(3000);
   }
 }
